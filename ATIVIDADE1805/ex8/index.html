@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 8</title>
+</head>
+<body>
+    <main class="container">
+        <h1>Comparador de Preços</h1>
+        <form action="php/EX8.php" method="post" class="number-form">
+            <div class="input-group">
+                <label for="precoI">Produto 1:</label>
+                <input type="number" id="precoI" name="precoI" required step="any" placeholder="Digite o valor">
+            </div>
+            
+            <div class="input-group">
+                <label for="precoII">Produto 2:</label>
+                <input type="number" id="precoII" name="precoII" required step="any" placeholder="Digite outro valor">
+            </div>
+
+             <div class="input-group">
+                <label for="precoII">Produto 3:</label>
+                <input type="number" id="precoIII" name="precoIII" required step="any" placeholder="Digite o ultimo valor">
+            </div>
+            
+            <button type="submit" class="submit-btn">Comparar preços</button>
+        </form>
+    </main>
+</body>
+</html>

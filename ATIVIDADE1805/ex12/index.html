@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 11</title>
+</head>
+<body>
+    <h1>Calcular Folha de Pagamento</h1>
+    <form method="post" action="php/EX12.php">
+        <p>
+            <label for="valor_hora">Valor da hora trabalhada (R$):</label><br>
+            <input type="number" name="valor_hora" id="valor_hora" step="0.01" min="0" required>
+        </p>
+        <p>
+            <label for="horas_trabalhadas">Horas trabalhadas no mês:</label><br>
+            <input type="number" name="horas_trabalhadas" id="horas_trabalhadas" min="1" required>
+        </p>
+        <button type="submit">Calcular</button>
+    </form>
+</body>
+</html>

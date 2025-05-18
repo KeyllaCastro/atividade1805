@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 28
+    </title>
+</head>
+<body>
+    <h1>Hipermercado Tabajara - Promoção de Carnes</h1>
+    <form method="post" action="php/EX28.php">
+        <p>Tipo de carne:
+            <select name="tipo" required>
+                <option value="file duplo">Filé Duplo</option>
+                <option value="alcatra">Alcatra</option>
+                <option value="picanha">Picanha</option>
+            </select>
+        </p>
+        <p>Quantidade (Kg): <input type="number" name="quantidade" step="0.01" min="0.01" required></p>
+        <p>Cartão Tabajara? 
+            <input type="radio" name="cartao" value="sim"> Sim
+            <input type="radio" name="cartao" value="nao" checked> Não
+        </p>
+        <button type="submit">Gerar Cupom</button>
+    </form>
+</body>
+</html>
